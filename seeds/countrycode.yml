@@ -1,0 +1,13 @@
+version: 2
+
+seeds:
+  - name: country
+    config:
+     column_types:
+       COUNTRY: varchar(30)
+       COUNTRY_CODE: Number
+       dialcode:
+        country2:
+          column_types:
+           COUNTRY: varchar(30)
+           COUNTRY_CODE: Number
