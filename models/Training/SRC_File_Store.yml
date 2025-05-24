@@ -5,7 +5,7 @@ version: 2
 sources:
   - name: test_prod
     database: OUR_FIRST_DB
-    schema: PUBLIC
+    schema: STG_SCH
     tables:
       - name: Store_2023
       - name: Store_Sales_2023
