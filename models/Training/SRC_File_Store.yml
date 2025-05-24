@@ -1,0 +1,11 @@
+
+
+version: 2
+
+sources:
+  - name: test_prod
+    database: OUR_FIRST_DB
+    schema: PUBLIC
+    tables:
+      - name: Store_2023
+      - name: Store_Sales_2023
