@@ -1,0 +1,25 @@
+sources:
+  - name: sources
+    database: OUR_FIRST_DB
+    schema: DBT_PPANDA
+    freshness: 
+      error_after:
+        count: 2
+        period: day
+      warn_after:
+        count: 1
+        period: minute
+    tables:
+      - name: SRC_PRODUCT
+        description: " this is my desc"
+        columns:
+          - name: SRC_PRODUCT_NAME
+            description: 'my clm name 1st'
+            tests:
+              - not_null
+              - unique
+              
+
+
+
+    

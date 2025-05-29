@@ -1,0 +1,6 @@
+seeds:
+  - name: dbt
+    config:
+      column_types:
+        country_name: varchar(30)
+        country_code: varchar(20)
